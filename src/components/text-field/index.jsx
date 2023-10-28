@@ -8,7 +8,7 @@ export default function TextField({
   value,
 }) {
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col w-full'>
       <label className='mb-1 font-medium text-sm text-ash-dark'>
         {label}
         {required ? <span className='text-red'>*</span> : <></>}

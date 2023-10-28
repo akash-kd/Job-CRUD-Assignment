@@ -8,7 +8,7 @@ export default function NumField({
   value,
 }) {
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col w-full'>
       {label ? (
 				<label className='mb-1 font-medium text-sm text-ash-dark'>
 				  {label}

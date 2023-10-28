@@ -6,7 +6,7 @@ import { toFormData } from 'axios';
 export default function Form1({ setStep, data, setData, setPopup }) {
   const [error, setError] = useState();
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col w-full justify-center items-center'>
       <div className='flex flex-col gap-6 w-[577px] p-8 border border-ash-mid rounded-pri'>
         <div className='flex items-center justify-between flex-grow text-ash-darker'>
           <p className='text-[20px] leading-7'>Create a Job</p>
